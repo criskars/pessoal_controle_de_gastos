@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <form method="POST">
+            {% csrf_token %}
+        <strong>{{ message1 }}</strong> <br />
+        <input type="text" name="input1"><br />
+        <strong>{{ message2 }}</strong> <br />
+        <input type="text" name="input2"><br />
+        <button name="botao" id="botao">Enviar</button>
+        </form>
+    </body>
+</html>

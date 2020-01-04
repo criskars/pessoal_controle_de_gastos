@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pessoal-controle-de-gastos",
+  "private_key_id": "1f3efbaab304783b8a80a04fee07f51e5f17e8a9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCelnSFvtnU63tm\nqaLRbYGUYNwTtQNtzEX43iRk9ZR9HT1wnD21udnzFzfWP3P9n3DmmPrJGT22lPIr\nstgc2Lb28w6SeTg2ePzOJmduRW7zrn+n7jJOUwM1uH5j+2W4pIy7iYd6cIE1Bk3Q\nb9HGbytg1GZPDnU+nmxfgkVbYhbbemKYYp42aVZrwE3TqWoCa7nYEJRYNPVWP2sC\nx4005+IyjIeCzkmf4i+lIIuRwcRiJ1Dma9eamt9mBkHIyTKZQg4r33kO18bEeAoi\nySKFUzMa7EQIxi89/RGiraUgXKrieZGwf8VOEVD+8c18YBNpV7awnQdOqT6dTtIR\n+4ynOB5RAgMBAAECggEAH3V4Iunjm02lOo3PGx1OdakrLwua5QZ/IOmsLYzbyl/p\nBrQvt6No/URvUqRetYKR6mSRZyAHMndkfM+q+DnzPZSkoODECmZAvAI5RVInutY0\nQ5NITmpAOkFhbSL7IEAgHLmg8uRrdSHNgNoVsnfuEnS/4NHc5zGVDPMyH/ka0Kmr\n/edpwxG4ZqFo5AfdDpHdGtMsFM0EjbKRm/jSk4iJiCiPiOQ1HOGvDLKEdGdHKLUj\n3QfyQNsPMkd48FKEtIpC8tb/DvjpdEQaDHocqNrNQom8wmnet658vhJDMufvjJPY\nfcS3d3XMHCg3wJpL3N42byzRwC6VTjDbmFpqblx/eQKBgQDNYDfE3zwZsiHTkqea\nk4gEtHgynLrM0YP/uuPkbLNB8AGF9NUZAjvNe7MvOP2Kjme8j79qU9nUUEfh6QWk\nQGAyw/rWojqvsFCLq1LawlLHKp+FNWXIdkQME2beh4lrJFUUeKiDYh685i5MCob/\n1Euey3umaPoQXEZTRtuVOU/NjQKBgQDFrcbrwyfaJvC/mVGUO1kxmwnqTblwn+x5\nekV+7jVBPo26w6/q5WjyeUPoMpwLRs9e5G/PiAF2kw6upPIx53CcdbUzFDqLlI1L\nCmWv/+YF2dn6KcfRpSt9fWqHwgbwsNVHTOgeYoFUvXUV+MYECFHxcxJqFVJJOd9B\na6t8Q1h41QKBgQCAwLd1xvWorlIij6hfceot+O353OQHD7qPEh1Y0QS4a7yovEr0\nOMBBHDHDgxkASjKitgOspxDC1+mYqTuOM4Wbjd2tvVrJVeHJDgkNeBHpJsGHA2jh\n+bLDV06AZ7ww3UAxa0tJwrO+fRe9OERWEkOuM6c7Nki/BPpZruxuatWq6QKBgQCj\nqgDr6aPxJhRlTZcRVyG9xFMtPjSuXnn3CZjIQoitABFv89yOamm9d1EVyfEQFQxT\n0GYSONSdS5v4VHCBiNDfeUUQiUr/jXp+CpmuYfwcFAY47KaXmFythUzSIX6FgKLU\naYQ0w/G4KzPpgRLQ++J8OX2hfw2luthw3agZNdjmEQKBgQCRKTNHdq10iIWeeAXG\nzbjiNv3L/kHCTb3my0wdd1U5h2XRbrJT5BR+rZhBRBuo47J3fCMUqxFLqdfOZHiY\nsB2EYpd9QZISa1I9ii53n0NTPdQmV6v8uB1hhpjV0SzetJxhZvZgQtN/V0RPmTl7\nkEPHQiVBqwJ/8MyOMZORh9SFmg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "pessoal-controle-de-gastos@pessoal-controle-de-gastos.iam.gserviceaccount.com",
+  "client_id": "108056837690594112070",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pessoal-controle-de-gastos%40pessoal-controle-de-gastos.iam.gserviceaccount.com"
+}
