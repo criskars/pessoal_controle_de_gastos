@@ -45,12 +45,14 @@
     <Compile Include="PESSOAL___controle_de_gastos\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pessoal_controle_de_gastos\static\estilos.css" />
     <Content Include="pessoal_controle_de_gastos\templates\pessoal_controle_de_gastos\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="pessoal_controle_de_gastos\" />
     <Folder Include="pessoal_controle_de_gastos\migrations\" />
+    <Folder Include="pessoal_controle_de_gastos\static\" />
     <Folder Include="pessoal_controle_de_gastos\templates\" />
     <Folder Include="pessoal_controle_de_gastos\templates\pessoal_controle_de_gastos\" />
     <Folder Include="PESSOAL___controle_de_gastos\" />

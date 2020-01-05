@@ -1,0 +1,72 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    align-content: center;
+    align-items: center;
+}
+
+div {
+    padding: 5px;
+}
+
+input {
+    width: 300px;
+}
+
+button {
+    border-spacing: 10px 10px;
+    margin-top: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media ( max-width: 900px ) {
+
+    body {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    div {
+        float: none;
+        font-weight: 400;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    input {
+        float: left;
+        display: flex;
+        align-self: center;
+        width: 100%;
+        border-left: hidden;
+        border-right: hidden;
+        border-top: hidden;
+        border-bottom-style: solid;
+        border-bottom-color: gray;
+        border-width: 1px;
+    }
+
+    button {
+        font-size: 14px;
+        color: #ffffff;
+        padding: 10px 20px;
+        background: -webkit-gradient( linear, left top, left bottom, from(#ee1c27), to(#ee1c27));
+        background: linear-gradient( top, #ee1c27 0%, #ee1c27);
+        border-radius: 10px;
+        border: 0px solid #ffffff;
+        box-shadow: 0px 1px 3px rgba(000,000,000,0), inset 0px 0px 0px rgba(255,255,255,0);
+        text-shadow: 0px 0px 0px rgba(000,000,000,0), 0px 1px 0px rgba(255,255,255,1);
+    }
+
+    .retorno {
+        float: none;
+        font-weight: 400;
+        font-size: 11px;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+}

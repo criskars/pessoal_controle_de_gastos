@@ -4,7 +4,7 @@ from django import forms
 from django import utils
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 scope = ['https://spreadsheets.google.com/feeds']
 credentials = ServiceAccountCredentials.from_json_keyfile_name('pessoal-controle-de-gastos-1f3efbaab304.json', scope)
@@ -18,7 +18,11 @@ def index(request):
     inputvalor = forms.NumberInput()
     descricao = ''
     agora = datetime.now()
+    diferenca = timedelta(hours=-3)
+    fuso_horario = timezone(diferenca)
+    agora = agora.astimezone(fuso_horario)
     horaatual = agora.strftime("%d/%m/%Y %H:%M:%S")
+    retorno = ''
 
     def next_available_row(worksheet):
 
@@ -35,6 +39,8 @@ def index(request):
         worksheet.update_cell(next_row, 2, descricao)
         worksheet.update_cell(next_row, 4, horaatual)
 
+        retorno = 'Registro efetuado com sucesso.'
+
     return render(
         request,
         "pessoal_controle_de_gastos/index.html",  # Relative path from the 'templates' folder to the template file
@@ -45,5 +51,6 @@ def index(request):
             'input1': inputdescricao,
             'message2' : "Insira o valor",
             'input2': inputvalor,
+            'retorno': retorno
         }
     ) 

@@ -1,15 +1,23 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width">
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap');
+        </style>
+        {% load static %} <!-- Instruct Django to load static files -->
+        <link rel="stylesheet" type="text/css" href="{% static 'estilos.css' %}" />
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.ico' %}"/>        
         <title>{{ title }}</title>
     </head>
     <body>
         <form method="POST">
             {% csrf_token %}
-        <strong>{{ message1 }}</strong> <br />
-        <input type="text" name="input1"><br />
-        <strong>{{ message2 }}</strong> <br />
-        <input type="text" name="input2"><br />
-        <button name="botao" id="botao">Enviar</button>
+        <div class="messages">{{ message1 }}</div>
+        <div><input type="text" name="input1"><br /></div>
+        <div class="messages">{{ message2 }}</div>
+        <div><input type="text" name="input2"><br /></div>
+        <div><button name="botao" id="botao">Enviar</button></div>
+            <div class="retorno">{{ retorno }}</div>
         </form>
     </body>
 </html>
