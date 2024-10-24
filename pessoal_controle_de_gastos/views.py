@@ -7,7 +7,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime, timezone, timedelta
 
 scope = ['https://spreadsheets.google.com/feeds']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('pessoal-controle-de-gastos-1f3efbaab304.json', scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('', scope)
 gc = gspread.authorize(credentials)
 wks = gc.open_by_key('')
 worksheet = wks.get_worksheet(0)
